@@ -31,6 +31,8 @@ Bug Fixes:
 * Fix `expect(array).to include(hash).times`, previously this would fail due to
   matching the entire array as a single hash, rather than a member of the hash.
   (Slava Kardakov, #1322)
+* Fix the diff for redefined `actual` and reassigned `@actual` in compound
+  expectations failure messages. (Phil Pirozhkov, #1319)
 
 ### 3.10.1 / 2020-12-27
 [Full Changelog](http://github.com/rspec/rspec-expectations/compare/v3.10.0...v3.10.1)
